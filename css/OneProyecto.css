@@ -1,0 +1,143 @@
+body  {
+	background-color:	aqua;
+	background-image: 	url(../files/images/olas.png);
+}
+
+/*Float************************************************************************/
+
+#Float{
+	width: 				90%;
+	margin-left: 		auto;
+	margin-right: 		auto;
+}
+
+#Float section{
+	float: left;
+	width:38%;
+	margin: 5px;
+}
+
+#Float aside{
+	clear:right;
+	margin: 5px;
+	padding: 6px;
+	float: right;
+	width:20%;
+}
+
+#Float footer{
+	clear:right;
+	/*margin-top: 		46%;*/
+	padding:			1px 0px 1px 0px;
+	width:				100%;
+}
+
+#Float sup{
+	color:				pink;
+}
+
+/*Flex*************************************************************************/
+
+#Flex{
+	display:			flex;
+	flex-wrap:			wrap;
+	gap: 				10px;
+	width: 				90%;
+	margin-left: 		auto;
+	margin-right: 		auto;
+}
+
+#Flex header{
+	flex:				100%;
+}
+
+#Flex #left{
+	flex:				29%;
+}
+
+#Flex #center{
+	flex:				29%;
+}
+
+#Flex #right{
+	flex:				29%;
+}
+
+#Flex footer{
+	flex:				100%;
+}
+
+/*Base*************************************************************************/
+
+header{
+	border-radius:		20px;
+	background-image: 	url(../files/images/acantilado.jpg);
+	height:				180px;
+	margin-bottom: 		20px;
+	/*box-shadow: 10px 10px 10px #EDC9AF*/
+}
+
+header img.logo{
+	margin: 			20px;
+	margin-top: 		55px;
+}
+
+header .merry{	
+	float: 				right;
+	margin:				10px;
+}
+
+header .sunny{
+	float: 				right;
+	margin:				10px;
+}
+
+header:not(:hover) .merry{
+	display:			none;
+}
+
+header:hover .sunny{
+	display:			none;
+}
+
+.titulo{
+	padding-bottom: 50px;
+}
+
+.sec{
+	opacity:  			88%;
+	color: 				white;
+	border-radius:		20px;
+	background-color: 	#007500;
+	text-align:			center;
+}
+
+nav{
+	flex: 				100%;
+	padding: 			0px 20px 0px 20px;
+}
+nav li{
+	margin:				5%;
+	font-weight:		bold;
+	font-size:			150%;
+	display:			inline;
+}
+
+.info{
+
+	display: none;
+}
+
+#left li:hover .info{
+	display: block;
+	padding-left: 30%;
+	float: center;
+}
+
+ol{
+	margin:				5px;
+}
+
+footer{
+	margin-top: 		20px;
+}
