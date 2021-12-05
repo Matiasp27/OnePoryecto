@@ -3,6 +3,17 @@ body  {
 	background-image: 	url(../files/images/olas.png);
 }
 
+#oscuro{
+	background-color:	Blue;
+}
+
+#inicio{
+
+	position: 			absolute;
+	top: 				20px;
+	left: 				100px;
+}
+
 /*Float************************************************************************/
 
 #Float{
@@ -15,6 +26,7 @@ body  {
 	float: left;
 	width:37%;
 	margin: 5px;
+	padding:10px;
 }
 
 #Float aside{
@@ -105,7 +117,7 @@ header:hover .sunny{
 }
 
 .sec{
-	opacity:  			88%;
+	opacity:  			92%;
 	color: 				white;
 	border-radius:		20px;
 	background-color: 	#007500;
