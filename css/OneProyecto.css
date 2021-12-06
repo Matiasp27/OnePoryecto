@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+@font-face{
+	font-family: Lobster;
+	src: url("Lobster-Regular.ttf");
+}
+
 body  {
 	background-color:	aqua;
 	background-image: 	url(../files/images/olas.png);
@@ -22,6 +29,10 @@ body  {
 
 /*Float************************************************************************/
 
+#Float{
+	font-family: 		"Times New Roman", Times, serif;
+}
+
 #Float nav{
 	width: 				100%;
 }
@@ -33,12 +44,8 @@ body  {
 	padding:10px;
 }
 
-#Float #center{
-	padding-bottom: 193px;
-}
-
 #Float aside{
-	clear:right;
+
 	margin: 5px;
 	padding: 6px;
 	float: right;
@@ -59,9 +66,27 @@ body  {
 /*Absolute*********************************************************************/
 
 #Absolute{
-position:				absolute;
+	position:			absolute;
+	font-family: 		Lobster;
 
 }
+
+#Absolute nav{
+
+}
+
+#Absolute section{
+
+}
+
+#Absolute aside{
+	width:20%;
+}
+
+#Absolute footer{
+}
+
+
 
 /*Flex*************************************************************************/
 
@@ -69,6 +94,7 @@ position:				absolute;
 	display:			flex;
 	flex-wrap:			wrap;
 	gap: 				10px;
+	font-family: 		"Ribeye Marrow", Cursive;
 }
 
 #Flex header{
@@ -157,7 +183,7 @@ nav li{
 
 #left li:hover .info{
 	display: block;
-	padding-left: 30%;
+	padding-left: 35%;
 	float: center;
 }
 
