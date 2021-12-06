@@ -22,9 +22,9 @@ body  {
 	border-radius:		5px;
 	color:				pink;
 	padding:			4px;
-	position: 			absolute;
-	top: 				20px;
-	left: 				100px;
+	position: 			fixed;
+	top: 				0px;
+	left: 				0px;
 }
 
 nav{
@@ -64,7 +64,7 @@ nav{
 
 #Float video{
 	position:			relative;
-	width:				90%;
+	width:				65%;
 }
 
 #Float sup{
@@ -223,12 +223,12 @@ th:active, td:active{
 	border-style:		inset;
 }
 
-
 #left .unico li:hover .info{
 	display: 			block;
 	padding-left: 		35%;
 	float:				center;
 }
+
 
 #im1:hover .infoIm{
 	display: 			block;
@@ -267,6 +267,10 @@ td:active .pre{
 
 td:hover, th:hover {
 	background-color: 	rgb(00, 255, 255);
+}
+
+td.noimg:active, th.noimg:active{
+	background-color: rgb(255, 0, 0);
 }
 
 th, td {
