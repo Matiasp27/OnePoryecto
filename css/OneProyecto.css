@@ -11,7 +11,10 @@ body  {
 }
 
 #inicio{
-
+	background-color:	brown;
+	border-radius:		5px;
+	color:				pink;
+	padding:			4px;
 	position: 			absolute;
 	top: 				20px;
 	left: 				100px;
@@ -28,6 +31,10 @@ body  {
 	width:37%;
 	margin: 5px;
 	padding:10px;
+}
+
+#Float #center{
+	padding-bottom: 193px;
 }
 
 #Float aside{
@@ -47,6 +54,13 @@ body  {
 
 #Float sup{
 	color:				pink;
+}
+
+/*Absolute*********************************************************************/
+
+#Absolute{
+position:				absolute;
+
 }
 
 /*Flex*************************************************************************/
