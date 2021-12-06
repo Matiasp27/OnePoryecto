@@ -34,7 +34,7 @@ body  {
 }
 
 #Float nav{
-	width: 				100%;
+	width: 				97%;
 }
 
 #Float section{
@@ -68,25 +68,97 @@ body  {
 #Absolute{
 	position:			absolute;
 	font-family: 		Lobster;
-
+	
 }
-
+#Absolute header{
+	width: 				269.1%;
+}
 #Absolute nav{
+	width: 				262%;
+}
+
+#Absolute .sec:not(nav, footer){
+	background-color:	rgba(0, 117, 0, 50%);
+}
+
+#mundi{
+    position: 			absolute;
+    width: 				110%;
+    padding: 			0% 5% 2% 5%;
+}
+
+#mundi img{
+	border-radius: 		10%;
+	border: 			2px solid #000000;
+}
+
+.mini{
+	position: 			absolute;
+	top:	 			100%;
+	left: 				128%;
+	width:				120%;
+	height:				174%;
+    padding: 			1%;
+    background-color: 	hsl(120, 100%, 23%, 45%);
+	border-radius:		20px;
 
 }
 
-#Absolute section{
+.mini img{
+	border-radius:		10px;
+	width: 				300px;
+	height:				200px;
+	border: 			2px solid #000000;
 
+}
+
+#north{
+	position:			absolute;
+	left: 				3%;
+}
+
+#east{
+	position:			absolute;
+	left: 				52%;
+}
+
+#west{
+	position:			absolute;
+	top: 				50%;
+	left: 				3%;
+}
+
+#south{
+	position:			absolute;
+	left: 				52%;
+	top: 				50%;
 }
 
 #Absolute aside{
-	width:20%;
+	line-height: 70px;
+	position: absolute;
+	left: 259%;
+	width:10%;
+	padding: 25px 0px 25px 0px;
+}
+
+#line{
+    position: absolute;
+    width: 259%;
+    top: 283%;
+    padding: 0% 5% 2% 5%;
+}
+
+#line img{
+	border-radius: 10%;
+	border: 2px solid #000000;
 }
 
 #Absolute footer{
+	position: absolute;
+    width: 269%;
+    top: 950px;
 }
-
-
 
 /*Flex*************************************************************************/
 
