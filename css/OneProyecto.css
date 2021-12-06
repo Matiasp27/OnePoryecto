@@ -214,6 +214,12 @@ th:active, td:active{
 }
 
 
+#left li li:hover .info{
+	display: 			block;
+	padding-left: 		35%;
+	float:				center;
+}
+
 td:not(active) .post{
 	display: 			none;
 }
@@ -295,12 +301,6 @@ nav li{
 .info{
 
 	display: 			none;
-}
-
-#left li:hover .info{
-	display: 			block;
-	padding-left: 		35%;
-	float:				center;
 }
 
 ol{
