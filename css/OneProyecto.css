@@ -135,29 +135,29 @@ body  {
 }
 
 #Absolute aside{
-	line-height: 70px;
-	position: absolute;
-	left: 259%;
-	width:10%;
-	padding: 25px 0px 25px 0px;
+	line-height: 		70px;
+	position: 			absolute;
+	left: 				259%;
+	width:				10%;
+	padding: 			25px 0px 25px 0px;
 }
 
 #line{
-    position: absolute;
-    width: 259%;
-    top: 283%;
-    padding: 0% 5% 2% 5%;
+    position: 			absolute;
+    width: 				259%;
+    top: 				283%;
+    padding: 			0% 5% 2% 5%;
 }
 
 #line img{
-	border-radius: 10%;
-	border: 2px solid #000000;
+	border-radius: 		10%;
+	border: 			2px solid #000000;
 }
 
 #Absolute footer{
-	position: absolute;
-    width: 269%;
-    top: 950px;
+	position: 			absolute;
+    width: 				269%;
+    top: 				950px;
 }
 
 /*Flex*************************************************************************/
@@ -181,6 +181,15 @@ body  {
 	flex:				29%;
 }
 
+#imp{
+	font-size: 			70%;
+	list-style-type: 	upper-roman;
+}
+
+#im{
+	list-style-type: 	disc;
+}
+
 #Flex #center{
 	flex:				29%;
 }
@@ -192,6 +201,41 @@ body  {
 #Flex footer{
 	flex:				100%;
 }
+table{
+	background-color:	rgba(00, 255, 255, 10%);
+	margin-left: 		auto;
+	margin-right: 		auto;
+	width: 				90%;
+	margin-bottom: 		20px;
+}
+
+th:active, td:active{
+	border-style:		inset;
+}
+
+
+td:not(active) .post{
+	display: 			none;
+}
+
+td:active .post{
+	display: 			inline;
+}
+
+td:active .pre{
+	display: 			none;
+}
+
+
+td:hover, th:hover {
+	background-color: 	rgb(00, 255, 255);
+}
+
+th, td {
+	border-style:		outset;
+	border-radius:		10px;
+
+}
 
 /*Base*************************************************************************/
 
@@ -200,7 +244,7 @@ header{
 	background-image: 	url(../files/images/acantilado.jpg);
 	height:				180px;
 	margin-bottom: 		20px;
-	/*box-shadow: 10px 10px 10px #EDC9AF*/
+	/*box-shadow: 		10px 10px 10px #EDC9AF*/
 }
 
 header img.logo{
@@ -227,7 +271,7 @@ header:hover .sunny{
 }
 
 .titulo{
-	padding-bottom: 50px;
+	padding-bottom: 	50px;
 }
 
 .sec{
@@ -250,13 +294,13 @@ nav li{
 
 .info{
 
-	display: none;
+	display: 			none;
 }
 
 #left li:hover .info{
-	display: block;
-	padding-left: 35%;
-	float: center;
+	display: 			block;
+	padding-left: 		35%;
+	float:				center;
 }
 
 ol{
