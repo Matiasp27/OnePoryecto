@@ -8,7 +8,7 @@
 body  {
 	background-color:	aqua;
 	background-image: 	url(../files/images/olas.png);
-	width: 				90%;
+	width: 				1465px;
 	margin-left: 		auto;
 	margin-right: 		auto;
 }
@@ -27,10 +27,17 @@ body  {
 	left: 				100px;
 }
 
+nav{
+	font-family:		Lobster;
+}
+
 /*Float************************************************************************/
 
 #Float{
 	font-family: 		"Times New Roman", Times, serif;
+	width: 1465px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Float section{
@@ -44,7 +51,7 @@ body  {
 
 	margin: 			5px;
 	padding: 			8px;
-	float:				right;
+	float: 				right;
 	width:				18rem;
 }
 #Float h1{
@@ -64,11 +71,6 @@ body  {
 	color:				pink;
 }
 
-#Float footer{
-	float: right;
-	padding:			1px 0px 1px 0px;
-	width:				100%;
-}
 
 /*Absolute*********************************************************************/
 
@@ -325,11 +327,10 @@ th, td {
     padding-left: 5px;
     border-radius: 10px;
     margin: 5px;
-    color: #FAFAFA;
+    color: #133F19;
     background-color: lightseagreen;
-    background-image:url("../files/images/pattern.png");
-    height: 100%;
 }
+
 
 #grid article a{
     color: #a4d0ff;
@@ -421,6 +422,8 @@ video{
 }
 
 footer{
+	text-align:			center;
 	margin-top: 		20px;
 	padding:			1px 0px 1px 0px;
+	clear: 				right;
 }
