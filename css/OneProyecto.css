@@ -488,7 +488,7 @@ ol{
 	margin:				5px;
 }
 
-video{
+video, iframe{
 	border-radius:		20px;
 }
 
