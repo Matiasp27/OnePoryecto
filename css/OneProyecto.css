@@ -219,7 +219,6 @@ nav{
 #left .unico li:hover .info{
 	display: 			block;
 	padding-left: 		35%;
-	float:				center;
 }
 
 #im1 a{
@@ -229,7 +228,6 @@ nav{
 #im li:hover .info{
 	display: 			block;
 	padding-left: 		35%;
-	float:				center;
 }
 
 .info{
