@@ -71,6 +71,10 @@ nav{
 	color:				pink;
 }
 
+#Float #left img{
+	border-radius:		10px;
+}
+
 
 /*Absolute*********************************************************************/
 
@@ -211,17 +215,6 @@ nav{
 #Flex footer{
 	flex:				100%;
 }
-table{
-	background-color:	rgba(00, 255, 255, 10%);
-	margin-left: 		auto;
-	margin-right: 		auto;
-	width: 				90%;
-	margin-bottom: 		20px;
-}
-
-th:active, td:active{
-	border-style:		inset;
-}
 
 #left .unico li:hover .info{
 	display: 			block;
@@ -229,11 +222,8 @@ th:active, td:active{
 	float:				center;
 }
 
-
-#im1:hover .infoIm{
-	display: 			block;
-	padding-left: 		35%;
-	float:				center;
+#im1 a{
+	color: 				white;
 }
 
 #im li:hover .info{
@@ -247,9 +237,16 @@ th:active, td:active{
 	display: 			none;
 }
 
-.infoIm{
+table{
+	background-color:	rgba(00, 255, 255, 10%);
+	margin-left: 		auto;
+	margin-right: 		auto;
+	width: 				90%;
+	margin-bottom: 		20px;
+}
 
-	display: 			none;
+th:active, td:active{
+	border-style:		inset;
 }
 
 td:not(active) .post{
@@ -320,28 +317,100 @@ th, td {
 /*Grid*************************************************************************/
 
 #grid{
-	display:grid;
-    grid-gap: 10px;
-    padding:10px;
+	display:			grid;
+    grid-gap: 			10px;
+    padding:			10px;
 }
 
 #grid article{
-    background-size: cover;
-    font-size: 1.1em;
-    padding-left: 5px;
-    border-radius: 10px;
-    margin: 5px;
-    color: #133F19;
-    background-color: lightseagreen;
+	padding: 			8px;
+    background-size: 	cover;
+    font-size: 			1.1em;
+    border-radius: 		10px;
+    margin: 			5px;
+    color: 				#133F19;
+    position: 			relative;
+}
+
+#grid p{
+	font-size:1.1rem;
+	text-decoration:overline underline;
+
+}
+
+#grid img{
+	border-radius:		20px;
+}
+
+#mito img{
+	position: relative;
+	left: 270px;
+	bottom: 185px;
+	border-radius:		25%;
+}
+
+#prehisto img{
+	position: relative;
+	left: 300px;
+	bottom: 165px;
+}
+
+#logia img{
+	position: relative;
+	left: 100px;
+}
+
+#paramecia{   
+    grid-column-start: 	1;
+    grid-column-end: 	10;
+    grid-row-start: 	1;
+    grid-row-end: 		10;
+    background: 		NavajoWhite;
 }
 
 
-#grid article a{
-    color: #a4d0ff;
-    text-decoration:;
+#especial{
+    grid-column-start: 	1;
+    grid-column-end: 	5;
+    grid-row-start: 	10;
+    grid-row-end: 		16;
+	background:			#6c7059;
 }
 
 
+#logia{
+    grid-column-start: 	18;
+    grid-column-end: 	25;
+    grid-row-start: 	1;
+    grid-row-end: 		16;
+	background:			rgb(214,167,0);
+	background: 		linear-gradient(151deg, rgba(214,167,0,1) 0%, rgba(84,84,255,1) 51%, rgba(255,91,91,1) 100%);
+}
+
+#zoan{
+    grid-column-start: 	10;
+    grid-column-end: 	18;
+    grid-row-start: 	1;
+    grid-row-end: 		10;
+    background: 		#B07139;
+}
+
+#mito{
+    grid-column-start: 	5;
+    grid-column-end: 	18;
+    grid-row-start: 	10;
+    grid-row-end: 		15;
+    height: 200px;
+	background: linear-gradient(45deg, red, yellow, blue, red);		
+}
+
+#prehisto{
+    grid-column-start: 	5;
+    grid-column-end: 	18;
+    grid-row-start: 	15;
+    grid-row-end: 		16;
+	background: 		hsl(122,100%,40%);
+}
 
 /*Base*************************************************************************/
 
