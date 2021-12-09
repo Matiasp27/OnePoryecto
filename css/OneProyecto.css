@@ -349,64 +349,63 @@ th, td {
 
 #prehisto img{
 	position: relative;
-	left: 300px;
-	bottom: 165px;
+	left: 30px;
 }
 
 #logia img{
 	position: relative;
-	left: 100px;
+	left: 55px;
 }
 
 #paramecia{   
     grid-column-start: 	1;
-    grid-column-end: 	10;
+    grid-column-end: 	3;
     grid-row-start: 	1;
-    grid-row-end: 		10;
+    grid-row-end: 		2;
     background: 		NavajoWhite;
 }
 
 
 #especial{
     grid-column-start: 	1;
-    grid-column-end: 	5;
-    grid-row-start: 	10;
-    grid-row-end: 		16;
+    grid-column-end: 	2;
+    grid-row-start: 	2;
+    grid-row-end: 		4;
 	background:			#6c7059;
 }
 
 
 #logia{
-    grid-column-start: 	18;
-    grid-column-end: 	25;
+    grid-column-start: 	5;
+    grid-column-end: 	6;
     grid-row-start: 	1;
-    grid-row-end: 		16;
+    grid-row-end: 		4;
 	background:			rgb(214,167,0);
 	background: 		linear-gradient(151deg, rgba(214,167,0,1) 0%, rgba(84,84,255,1) 51%, rgba(255,91,91,1) 100%);
 }
 
 #zoan{
-    grid-column-start: 	10;
-    grid-column-end: 	18;
+    grid-column-start: 	3;
+    grid-column-end: 	5;
     grid-row-start: 	1;
-    grid-row-end: 		10;
+    grid-row-end: 		2;
     background: 		#B07139;
 }
 
 #mito{
-    grid-column-start: 	5;
-    grid-column-end: 	18;
-    grid-row-start: 	10;
-    grid-row-end: 		15;
+    grid-column-start: 	2;
+    grid-column-end: 	5;
+    grid-row-start: 	2;
+    grid-row-end: 		3;
     height: 200px;
 	background: linear-gradient(45deg, red, yellow, blue, red);		
 }
 
 #prehisto{
-    grid-column-start: 	5;
-    grid-column-end: 	18;
-    grid-row-start: 	15;
-    grid-row-end: 		16;
+    grid-column-start: 	2;
+    grid-column-end: 	5;
+    grid-row-start: 	3;
+    grid-row-end: 		4;
 	background: 		hsl(122,100%,40%);
 }
 
